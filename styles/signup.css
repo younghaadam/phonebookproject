@@ -3,7 +3,7 @@ body{
     margin: 0;
     padding: 0;
     background-image: url("/images/mesh-NaN\ \(3\).png");
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
@@ -11,6 +11,7 @@ body{
 }
 /* sign up page styling */
 .sign-up {
+    position: relative;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(149,15,226,1) 29%, rgba(255,0,245,1) 69%, rgba(255,0,236,1) 85%);
     width: 30rem;
@@ -18,5 +19,78 @@ body{
     position: relative;
     left: 27em;
     margin-top: 5em;
+    opacity: 0.45;
+}
+
+.signup{
+    position: relative;
+    left: 110px;
+}
+.image > i{
+    position: relative;
+    font-size: 70px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 50px;
+    left: 90px;
+    top: 50px;
+    margin-bottom: 60px;
+}
+.signup{
+    position: relative;
+}
+
+#email{
+    width: 15rem;
+    height: 1.5rem;
+    padding: 10px;
+    border-radius: 30px;
+    border-style: none;
+}
+
+#pass{
+    width: 15rem;
+    height: 1.5rem;
+    padding: 10px;
+    border-radius: 30px;
+    border-style: none;
+    margin-top: 40px;
+}
+
+#loginbt{
+    padding: 10px;
+    width: 80px;
+    border-radius: 20px;
+    border-style: none;
+    color: wheat;
+    font-weight: bold;
+    background-color: black;
+    margin-top: 30px;
+}
+
+#loginbt:hover{
+    background-color:  rgb(2,0,36);
+}
+
+#createbt{
+    padding: 10px;
+    width: 130px;
+    border-radius: 20px;
+    border-style: none;
+    font-weight: bold;
+    color: wheat;
+    background-color: black;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+#createbt:hover{
+    background-color:  rgb(2,0,36);
+}
+
+.details{
+    position: relative;
+    margin-top: 30px;
+    font-weight: bold;
 }
 
