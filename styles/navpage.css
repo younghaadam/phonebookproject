@@ -1,0 +1,54 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url("/images/mesh-NaN\ \(3\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    
+}
+
+ #logo-img {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+#search-bar {
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 7px;
+    width: 250px;
+}
+
+
+ .MyBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    column-gap: 50px;
+
+ }
+
+
+ #Btn1, #Btn2 {
+    border: 70px;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 20px;
+
+ }
+
+
+ #Btn1:hover {
+    background-color: rgb(232, 111, 151);
+ }
+
+
+ #Btn2:hover {
+    background-color: rgb(232, 111, 151);
+ }
