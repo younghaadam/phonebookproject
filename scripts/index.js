@@ -1,12 +1,9 @@
-const main = document.getElementsByClassName("main");
+  // setimer few seconds delay on the page then load to the next page.
 
-const icon = document.querySelectorAll("#icon")
-const para = document.querySelectorAll("#")
+  setTimeout(() => {
 
+    window.location.href = "pages/navpage.html";
+ }, 3000);
+ 
 
-
-let duration = setTimeout(interval, 3000);
-
-const interval = () =>{
-
-}
+ 
